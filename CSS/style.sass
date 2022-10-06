@@ -1,0 +1,57 @@
+@import 'variable'
+@import 'mixin'
+
+body
+    height: 1400px
+
+.content
+    position: absolute
+    top: -85px
+
+.title
+    @include title()
+
+.sub-title
+    @include subtitle()
+
+.text
+    @include para()
+
+.card
+    @include card()
+
+.card img
+    @include cardImage()
+
+.card .name
+    @include cardName
+
+.card .design
+    @include designation
+
+.saba 
+    left: 534.65px
+    top: 396px
+
+.shae
+    left: 863.54px
+
+.sky
+    top: 760px
+
+.grif
+    left: 534.65px
+    top: 944px
+
+.stan
+    left: 863.54px
+    top: 760px
+
+.attribution
+    @include footer()
+
+.attribution a 
+    @include footerLink()
+
+@media (max-width: $mobile)
+    @include mobile()

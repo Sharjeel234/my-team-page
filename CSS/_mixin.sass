@@ -1,0 +1,150 @@
+@mixin title
+    position: absolute
+    width: 278px
+    height: 47px
+    left: 243px
+    top: 110px
+
+    font-family: $pt
+    font-weight: 700
+    font-size: 36px
+    line-height: 48px
+    letter-spacing: -0.045em
+
+@mixin subtitle
+    position: absolute
+    width: 117px
+    height: 27px
+    left: 736px
+    top: 110px
+
+    font-family: $pop
+    font-weight: 600
+    font-size: 18px
+    line-height: 27px
+    text-transform: uppercase
+
+@mixin para
+    position: absolute
+    width: 439px
+    height: 87px
+    left: 736px
+    top: 147px
+
+    font-family: $pop
+    font-weight: 400
+    font-size: 18px
+    line-height: 27px
+
+@mixin card
+    position: absolute
+    width: 264px
+    height: 383px
+    left: 240px
+    top: 200px
+
+@mixin cardImage
+    position: absolute
+    width: 238px
+    height: 341px
+
+@mixin cardName
+    position: absolute
+    width: 130px
+    height: 27px
+    top: 330px
+
+    font-family: $pop
+    font-weight: 600
+    font-size: 18px
+    line-height: 27px
+
+@mixin designation
+    position: absolute
+    width: 102px
+    height: 16px
+    left: 200px
+    top: 45px
+
+    font-family: $pt
+    font-weight: 400
+    font-size: 12px
+    line-height: 16px
+    text-transform: uppercase
+    transform: rotate(90deg)
+
+@mixin footer
+    position: absolute
+    bottom: -105%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+    font-family: $pt
+    font-size: 18px
+    color: $attr-color
+    text-align: center
+
+@mixin footerLink
+    text-decoration: none
+    font-family: $pop
+    font-weight: 600
+    color: $attr-a 
+
+@mixin mobile
+    body 
+        height: 1300px
+    .content
+        top: -40px
+    .title
+        left: 12px
+        top: 71px
+    .sub-title
+        top: 156px
+        left: 12px
+    .text
+        width: 333px
+        height: 87px
+        top: 193px
+        left: 12px
+        font-size: 14px
+        line-height: 21px
+    .card
+        width: 156px
+        height: 237px
+        left: 20px
+        top: 290px
+    .card img 
+        width: 138.72px
+        height: 209px
+    .card .name
+        width: 128px
+        height: 18px
+        left: -1px
+        top: 200px
+        font-size: 14px
+        line-height: 21px
+    .card .design
+        width: 130px
+        height: 11px
+        left: 85px
+        top: 60px
+        font-size: 10px
+        line-height: 13px
+    .saba
+        left: 220px
+        top: 346px
+    .shae
+        top: 580px
+    .sky
+        left: 220px
+        top: 635px
+    .grif
+        top: 880px
+    .stan
+        left: 220px
+        top: 940px
+    .attribution
+        display: inline-block
+        bottom: -105%
+        font-size: 14px
+        width: 352px
